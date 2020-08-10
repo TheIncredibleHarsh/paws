@@ -1,24 +1,19 @@
-# README
+# Paws<sup>*</sup> 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An open source repository of Animal shelters and pets up for adoption<br>
 
-Things you may want to cover:
+### Setup instruction
+* form
+* pull/download code
+* Install RVM
+* Install ruby 2.7.0
+* cd to directory
+* bundle install
+<br>
 
-* Ruby version
 
-* System dependencies
+*\*wip title*
 
-* Configuration
 
-* Database creation
+*\*still work in progress, not online yet*
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
