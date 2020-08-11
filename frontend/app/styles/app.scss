@@ -1,0 +1,25 @@
+
+@import "ember-bootstrap/bootstrap";
+
+.top-navbar{
+    background-color: #258ea6;
+    border: 0px;
+    border-radius:0;
+    box-shadow: 0px 1px 5px;
+    min-height: 80px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+}
+
+#navbar-logo {
+    height: 40px;
+    width: 40px;
+}
