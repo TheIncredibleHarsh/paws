@@ -1,5 +1,7 @@
 
 @import "ember-bootstrap/bootstrap";
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
 
 .top-navbar{
     background-color: #258ea6;
@@ -22,4 +24,38 @@
 #navbar-logo {
     height: 40px;
     width: 40px;
+}
+
+.card-container .entity-name {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.5));
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+}
+
+.fill {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.container {
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
 }

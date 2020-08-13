@@ -15,7 +15,6 @@ class SheltersController < ApplicationController
 
   # POST /shelters
   def create
-    byebug
     @shelter = Shelter.new(shelter_params)
 
     if @shelter.save
