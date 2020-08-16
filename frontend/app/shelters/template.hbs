@@ -1,6 +1,13 @@
 <div>
-  <button>Add shelter</button>
+  <button {{action 'openAddModal'}}>Add shelter</button>
 </div>
+{{#if showAddModal}}
+  {{#modal-dialog 
+    translucentOverlay=true
+    containerClass='modal-container'}}
+    {{add-entity modelName=modelName modalTitle=createModalTitle}}
+  {{/modal-dialog}}
+{{/if}}
 <div class="container">
   {{#each @model as |shelter|}}
     {{entity-card model=shelter}}

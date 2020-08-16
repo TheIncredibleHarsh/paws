@@ -1,0 +1,15 @@
+<div class="modal-dialog-sm">
+    <span class='modal-title'>{{modalTitle}}</span>
+    <hr>
+    <div>
+        {{#form-for newEntity as |f|}}
+            {{f.text-field 'name:'}}
+            {{f.text-field 'address:'}}
+            {{f.text-field 'website:'}}
+        {{/form-for}}
+    </div>
+    <div class="modal-buttons">
+        <button class="btn btn-secondary"{{action "closeModal"}}>Cancel</button>
+        <button class="btn btn-success" {{action "saveEntity"}}>Save</button>
+    </div>
+</div>
